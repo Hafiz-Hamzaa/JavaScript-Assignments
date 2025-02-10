@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/premium-photo/system-artificial-intelligence-chatgpt-chat-bot-ai-technology-smart-robot-ai-chat-gpt-application_454018-1464.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .chatbot-container {
+    background: #ffffff;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  @media screen and (max-width:450px) {
+    body{
+        background: linear-gradient(to right, #8360c3, #2ebf91); 
+    }
+    .chatbot-container{
+        width: 350px;
+    }
+  }
+  .chat-header {
+    background: #2ebf91;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .chat-body {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    max-height: 300px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-body p {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .chat-body p:nth-child(odd) {
+    background: #f1f1f1;
+    text-align: left;
+  }
+  
+  .chat-body p:nth-child(even) {
+    background: #2ebf91;
+    color: white;
+    text-align: right;
+  }
+  
+  .chat-input-area {
+    display: flex;
+    padding: 10px;
+    background: #f9f9f9;
+  }
+  
+  .chat-input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .chat-input-area button {
+    background: #2ebf91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .chat-input-area button:hover {
+    background: #1e8f66;
+  }
+  img{
+    border-radius: 50%;
+  }
