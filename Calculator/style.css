@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #135fa7, #3a3a3a);
+       background: linear-gradient(135deg, #5a8886, #3a3a3a);
     font-family: Arial, sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: #0e0f12;
+    background: linear-gradient(135deg, #5a8886, #5a8886);
     color: #00FFD1;
     border: none;
     outline: none;
