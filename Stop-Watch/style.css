@@ -1,0 +1,23 @@
+.main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px red;
+}
+
+button{
+    background-color: palegreen;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+}
+
+h2{
+    display: inline-block;
+    width: 100px;
+}
